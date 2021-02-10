@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tela {
+    width: 100%;
+    background: #f5e197;
+}
+
+.logo {
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo img {
+    width: 7rem;
+}
+
+.container02 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.mulher-logo {
+    width: 160px;
+    
+}
+
+.Slogan h1 {
+    text-transform: uppercase;
+    width: 160px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 50px ;
+}
+
+.socialMedias img{
+    padding-top: 30px;
+    width: 5rem;
+
+}
+
+
+
+
+
