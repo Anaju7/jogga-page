@@ -19,6 +19,10 @@
     font-weight: bold;
 }
 
+.pontinhos {
+    display: none;
+}
+
 .info {
     padding: 25px;
     font-size: 17px;
@@ -59,7 +63,7 @@
         float: left;
         position: absolute;
         top: 37rem;
-        height: 5rem;
+        height: 6rem;
     }
 
     .info {
@@ -82,11 +86,22 @@
 
 @media(min-width: 1024px) {
     .divulgacao-empresas {
+        width: 300px;
         top: 39rem;
+        height: 8rem;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .divulgacao-empresas h3 {
+        width: 140px;
+        font-size: 23px;
+       
     }
 
     .info {
         display: flex;
+        margin-left: 18rem;
         padding: 18px  30px;
         
     }
@@ -108,6 +123,8 @@
     .info p {
         width: 80%;
     }
+
+
     .lista-processos {
         width: 90%;
         padding-left: 100px;
