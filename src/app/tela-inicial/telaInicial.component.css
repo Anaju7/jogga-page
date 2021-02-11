@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .tela {
     width: 100%;
     background: #f5e197;
@@ -12,6 +13,7 @@
 .logo {
     padding: 2rem;
     text-align: center;
+    background: #f5e197
 }
 
 .logo img {
@@ -20,28 +22,111 @@
 
 .container02 {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-
-.mulher-logo {
-    width: 160px;
+    justify-content: space-between;
     
 }
 
-.Slogan h1 {
+.mulher-logo {
+    width: 160px; 
+}
+
+.Slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.text-slogan h1 {
     text-transform: uppercase;
-    width: 160px;
     font-weight: bold;
     font-size: 1.2rem;
-    padding-top: 50px ;
+}
+
+.text-slogan p {
+    display: none;
+}
+
+.text-slogan span {
+    text-transform: uppercase;
 }
 
 .socialMedias img{
-    padding-top: 30px;
-    width: 5rem;
+    padding-top: 40px;
+    width: 70px;
 
 }
+
+@media(min-width: 375px) {
+    .mulher-logo {
+        width: 200px; 
+    }
+}
+
+@media(min-width: 425px) {
+    .mulher-logo {
+        width: 240px;  
+    }
+
+    .socialMedias img {
+        width: 80px;
+    }
+
+}
+
+
+@media(min-width: 768px) {
+    .mulher-logo {
+        width: 280px;  
+    }
+    .tela {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .container02 {
+        margin-right: 15px;
+    }
+
+    .text-slogan p {
+        display: block;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 15px 0;
+    }
+
+
+}
+
+
+@media(min-width: 1024px) {
+    .mulher-logo {
+        width: 380px;  
+    }
+
+
+    .text-slogan h1 {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    .socialMedias img {
+        width: 6rem;
+    }
+}
+
+@media(min-width: 1280px) {
+    .socialMedias img {
+        width: 7rem;
+    }
+
+     .text-slogan p {
+         width: 70%;
+         font-size: 15px
+     }
+}
+
+
 
 
 

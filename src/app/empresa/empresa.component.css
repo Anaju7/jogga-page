@@ -1,9 +1,10 @@
 .metodos-jogga{
     background: #f8f7f2;
+
 }
 
 .divulgacao-empresas {
-    width: 70%;
+    width: 250px;
     height: 4rem;
     padding-left: 15px;
     display: flex;
@@ -19,8 +20,8 @@
 }
 
 .info {
-    font-size: 17px;
     padding: 25px;
+    font-size: 17px;
 }
 
 .lista-processos {
@@ -43,6 +44,7 @@
 }
 
 .lista-processos p {
+    height: 60px;
     padding: 10px;
     text-align: center;
     font-size: 10px;
@@ -61,7 +63,6 @@
     background: #fcd64f;
     padding: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .servicos h3 {
@@ -145,7 +146,6 @@
 }
 
 .contato-wpp {
-    width: 100%;
     background: #231f20;
     color: white;
     padding: 20px;
@@ -155,3 +155,96 @@
     width: 140px;
 }
 
+
+@media(min-width: 768px) {
+    .divulgacao-empresas {
+        float: left;
+        height: 5rem;
+    }
+
+    .info {
+        padding-top: 100px;
+    }
+
+    .lista-processos li  {
+        width: 13rem;
+    }
+
+    .lista-processos {
+        width: 80%;
+        justify-content: center;
+        padding-left: 150px;
+    }
+
+    .servicos {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+
+    .contato-phone {
+        margin: 25px 85px;
+        width: 75%;
+    }
+
+    .contato-wpp {
+        width: 90%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .divulgacao-empresas {
+        height: 7rem;
+    }
+
+    .info {
+        display: flex;
+        padding: 18px  30px;
+        
+    }
+
+    .info p {
+        margin-left: 30px;
+        width: 90%;
+    }
+
+    .lista-processos {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contato-phone {
+        margin: 2rem 7rem;
+        
+    }
+
+    .lista-parceiros {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lista-parceiros img {
+        width: 10rem;
+    }
+
+}
+
+@media(min-width: 1280px) {
+
+    .info p {
+        width: 80%;
+    }
+    .lista-processos {
+        width: 90%;
+        padding-left: 100px;
+    }
+
+    .contato-phone {
+        margin: 2rem 9rem;
+        
+    }
+
+    .lista-parceiros img {
+        width: 12rem;
+    }
+}
