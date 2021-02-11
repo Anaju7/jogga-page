@@ -10,6 +10,7 @@ import { Empresa } from './empresa/empresa.component';
 import { Slider } from './Slider/slider.component';
 import { Rodape } from './rodape/rodape.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { Parceiros } from './parceiros/parceiros.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     Cadastro,
     Empresa,
     Slider,
+    Parceiros,
     Rodape,
     AppComponent
   ],

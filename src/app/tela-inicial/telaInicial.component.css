@@ -107,11 +107,15 @@
 
     .text-slogan h1 {
         width: 70%;
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .socialMedias img {
         width: 6rem;
+    }
+
+    .logo img {
+        width: 10rem;
     }
 }
 

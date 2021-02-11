@@ -1,0 +1,183 @@
+.container-parceiros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parceria {
+    width: 90%;
+    background: #f8f7f2;
+    margin: 20px 0;
+}
+
+.contato-phone {
+    margin: 25px 20px;
+    border: black 1.6px solid;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contato-phone h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 45px;
+}
+
+.contato-phone img {
+    width: 150px;
+}
+
+.parceiros {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.parceiros h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.lista-parceiros {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    overflow: scroll;
+    padding: 0;
+}
+
+.lista-parceiros::-webkit-scrollbar {
+    display: none;
+    
+}
+
+
+.lista-parceiros img {
+    width: 7rem;
+}
+
+.beneficios {
+    width: 90%;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.beneficio-text h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.beneficios select {
+    width: 100%;
+    height: 50px;
+    background: #9EA0A0;
+    color: white;
+    font-weight: bold;
+    border-color: #231f20;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(139, 135, 135, 0.075);
+}
+
+.beneficios-img {
+    display: none;
+}
+
+.beneficios-list {
+    display: none;
+}
+
+@media(min-width: 768px) {
+
+    .contato-phone {
+        margin: 25px 85px;
+        width: 75%;
+    }
+}
+
+@media(min-width: 1024px) {
+
+    .contato-phone {
+        margin: 2rem 7rem;
+        
+    }
+
+    .lista-parceiros {
+        display: flex;
+        align-items: center;
+        padding-left: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .lista-parceiros img {
+        width: 10rem;
+    }
+
+    .beneficios {
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .beneficio-text {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .beneficio-text h3 {
+        font-size: 30px;
+        
+    }
+
+    .beneficios select {
+        display: none;
+    }
+
+    .beneficios-img  {
+        display: initial;
+    }
+
+    .homem {
+        position: absolute;
+        padding-top: 200px;
+        left: 180px;
+    }
+
+    .beneficios-list {
+        display: block;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .beneficios-list h3 {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .list-check {
+        list-style: none;
+        padding: 0;
+    }
+
+    .list-check li {
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+    }
+}
+
+@media(min-width: 1280px) {
+    
+    .contato-phone {
+        margin: 2rem 9rem;
+        
+    }
+
+    .lista-parceiros img {
+        width: 12rem;
+    }
+}

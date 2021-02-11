@@ -1,3 +1,21 @@
+.fale-conosco {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contato-wpp {
+    background: #231f20;
+    color: white;
+    padding: 20px;
+}
+
+.contato-wpp img {
+    width: 140px;
+}
+
 .rodape {
     margin-top: 30px;
     color: white;
@@ -8,4 +26,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media(min-width: 768px) {
+    .contato-wpp {
+        width: 90%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .rodape {
+        height: 10rem;
+        display: flex;
+        flex-direction: initial;
+        justify-content: space-around;
+    }
 }
