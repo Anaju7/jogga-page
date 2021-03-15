@@ -25,7 +25,9 @@
 
 ### Desenvolvimento do projeto
 
-<p>Decidir escolher o Angular por ser uma liguagem que estou aprendendo e seria um desfio a mais,usei a Mobile First para iniciar o projeto. Escolhi usar o CSS padrão junto com o Bootstrap para fazer a estilização da Landing page. na parte do cadastro usei o Bootstrap para fazer a validação dos inputs.</p>
+<p>Decidir escolher o Angular por ser uma liguagem que estou aprendendo e seria um desfio a mais,usei Mobile First para iniciar o projeto. Escolhi usar o CSS padrão junto com o Bootstrap para fazer a estilização da Landing page. na parte do cadastro usei o Bootstrap para fazer a validação dos inputs.</p>
+
+<a href="https://jogga-page.vercel.app/">CLIQUE AQUI PARA VISITAR A PAGINA</a>
 
 
 
